@@ -1,0 +1,380 @@
+html{
+  font-size: 62.5%;
+}
+
+/* Body */
+body{
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #dfdfdf;
+}
+/* Globales */
+h1{
+  margin: 0;
+  font-size: 3em;
+  font-weight: 900;
+}
+h2{
+ margin: 0; 
+ font-weight: 900;
+ font-size: 2.5em;
+ text-align: center;
+}
+h3{
+  margin: 0;
+  font-weight: 900;
+  font-size: 2em;
+  padding: 0.2em;
+}
+
+.center{
+  text-align: center;
+}
+
+.card-green{
+  background-color: #009e10d7;
+}
+.card-yellow{
+  background-color: rgba(255, 200, 0, 0.800);
+}
+.card-blue{
+  background-color: #097ae4d7;
+}
+.card-red{
+  background-color: rgba(255, 0, 0, 0.900);
+}
+.card-orange{
+  background-color: orange;
+}
+.card-purple{
+  background-color: rgb(113, 65, 225);
+}
+.card-black{
+  background-color: black;
+}
+/* Header */
+.site-header{
+  background-color:#009E0F;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.site-header img{
+  margin: 0.5rem;
+  width: 16rem;
+}
+.contenido-header{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contenido-header input{
+  width: 40%;
+  height: 3rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: none;
+}
+.session{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+.session a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+/* contenido centro */
+.contenido-principal{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+/* Contenido main */
+.contenido-main{
+  background: white;
+  border:2px solid #ffff00;
+  flex-basis: 75%;
+  margin: 1rem;
+}
+.contenido-main h2{
+  font-size: 2.5em;
+  background-color:#ffff00;
+  padding: 0.5em 0em;
+}
+.contenido-main .publicacion{
+  display: flex;
+  margin-bottom:2rem;
+}
+.contenido-main .publicacion img{
+  width:20rem;
+  height: auto;
+  max-height: 20rem;
+  padding-right:2em;
+}
+.contenido-publicaciones{
+  width: 100%;
+  text-align: center;
+}
+/* Contenido aside */
+.contenido-aside{
+  margin-top: 1rem;
+  margin-right: 1rem;
+  flex-basis: 25%;
+  max-height: 100%;
+}
+.secciones{
+  display: flex;
+  background: #097ae4;
+  flex-direction: column; 
+  border: 2px solid #097ae4;
+  margin-bottom: 3rem;
+}
+.secciones:hover{
+  box-shadow: -0.5rem -0.5rem 0.5rem rgb(0, 0, 0, 0.5), 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5) ;
+}
+.secciones ul{
+  margin:0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.secciones li{
+  list-style: none;
+  margin: 1em 0;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+  font-size: 25px;
+}
+.secciones a{
+  color:#000000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* AVisos */
+.avisos{
+  display: flex;
+  background: red;
+  flex-direction: column; 
+  border: 2px solid red;
+  margin-bottom: 3rem;
+}
+.avisos:hover{
+    box-shadow: -0.5rem -0.5rem 0.5rem rgb(0, 0, 0, 0.5), 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5) ;
+}
+.avisos a{
+  text-decoration: none;
+  color: #000000;
+}
+.avisos p{
+  margin: 0;
+  padding: 1em;
+  background-color:#ffffff;
+}
+/* Eventos */
+.eventos{
+  background-color: rgb(113, 65, 225);
+}
+.eventos a{
+  color:#000000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.eventos:hover{
+  box-shadow: -0.5rem -0.5rem 0.5rem rgb(0, 0, 0, 0.5), 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5) ;
+}
+/* Footer */
+.footer{
+  font-weight: 300;
+}
+.footer ul{
+  margin: 0;
+  padding: 0;
+}
+.footer li{
+  list-style: none;
+  margin: 1em 0;
+}
+
+
+/* Deportes */
+.navegacion{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.navegacion a{
+  background-color: white;
+  flex-basis: calc(33.33%);
+  text-align: center;
+  border: 1px solid black;
+  color:#000000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.navegacion a:hover{
+  background-color: #097ae4ce;
+}
+/* Contenido Centro deportes */
+.seccion{
+  margin: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.seccion-deportes h1{
+  color: #009E0F;
+}
+.seccion-comunidad h1{
+  color: orange;
+}
+.seccion-culturales h1{
+  color: #097ae4;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cards a{
+  text-decoration: none;
+  color: #000000;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  flex-basis: 35rem;
+  margin:2rem 0rem;
+  height: 40rem;
+  transition: 0.5s;
+}
+.card:hover{
+  box-shadow: -1rem -1rem 1rem rgb(212, 212, 212), 1rem 1rem 1rem rgb(212, 212, 212) ;
+}
+.card img{
+  width: 150px;
+  height: 150px;
+}
+.card h3{
+  color: white;
+  font-size: 2.5em;
+}
+.card i:before{
+  font-size: 150px;
+}
+.boton{
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0 2rem;
+  background-color: rgb(253, 0, 0);
+  height: 3rem;
+  border: none;
+}
+.boton:hover{
+  background-color: rgba(248, 0, 0, 0.932);
+}
+
+/* Seccio eventos  */
+.seccion-eventos{
+  margin-top: 1rem;
+}
+.seccion-eventos .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.seccion-eventos h1{
+  margin: 0 auto;
+  width: 50%;
+  background-color: #097ae4b6;
+  font-weight: 300;
+}
+.seccion-eventos p{
+  color: #ffffff;
+  margin: 0;
+  font-size: 5rem;
+  min-height: 114px;
+}
+.seccion-eventos a{
+  margin: 0 auto;
+  width: 50%;
+  cursor: pointer;
+}
+.seccion-eventos button{
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid white;
+  color: #ffffff;
+  background: transparent;
+  padding: 0.3em;
+  cursor: pointer;
+}
+/* SEccion avisos */
+.seccion-avisos{
+  border: none;
+}
+.seccion-avisos h2{
+  background-color: red;
+}
+/* Registro */
+.registro{
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registro form{
+  border: 0.5rem solid rgb(212, 212, 212);
+  background-color: #f7f7f7d8;
+  width: 80%;
+  margin-top: 2rem;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenido-registro{
+  width: 80%;
+  text-align: center;
+}
+.contenido-registro input, select{
+  font-size: 60%;
+  border-radius: 5px;
+  margin: 2rem;
+  border-color:rgb(212, 212, 212);
+  background: white;
+  width: 50%;
+}
+.contenido-registro textarea{
+  font-size: 50%;
+  border-radius: 5px;
+  margin: 2rem;
+  border-color:rgb(212, 212, 212);
+  background: white;
+  width: 70%;
+}
+.registro button{
+  border: none;
+  font-size: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+  background-color: red;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
